@@ -1,0 +1,12 @@
+include<stdio.h>
+int main()
+{
+       int a = 10;
+       int arr[] = {1,2,3,4,5,6,7};
+       printf("%d\n",sizeof(a));
+       printf("%d\n",sizeof(arr));
+       printf("%d\n",sizeof(int));
+       //printf("%d\n",sizeof int);//error      the () is necessary for this sentence to continue 
+      return 0
+}
+the result is 4 6 4
